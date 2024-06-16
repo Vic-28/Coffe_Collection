@@ -97,16 +97,16 @@ function App() {
                     Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly.
                 </p>
                 <section className='coll-header-options'>
-                    <button
+                    <a
                         className={`coll-header-options-button ${!showAvailable ? 'active' : ''}`}
                         onClick={() => setShowAvailable(false)}>
                         All Products
-                    </button>
-                    <button
+                    </a>
+                    <a
                         className={`coll-header-options-button ${showAvailable ? 'active' : ''}`}
                         onClick={() => setShowAvailable(true)}>
                         Available Now
-                    </button>
+                    </a>
                 </section>
             </section>
             <section className='coll-products'>
