@@ -1,0 +1,10 @@
+
+
+body
+{
+    background-image: url('assets/resources/bg-cafe.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+    place-items: center;
+    place-content: center   ;
+}

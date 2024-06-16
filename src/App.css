@@ -1,0 +1,156 @@
+main {
+    display: grid;
+    place-content: center;
+    background-color: #1B1D1F;
+    color: #FEF7EE;
+    font-family: sans-serif;
+    margin-top: 5%;
+    border-radius: 1%;
+}
+
+.collection {
+    display: grid;
+    gap: 2rem;
+}
+
+.coll-header {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    background-image: url('assets/resources/vector.svg');
+    background-repeat: no-repeat;
+    background-position: 60%;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.coll-header-title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.coll-header-description {
+    color: #6F757C;
+    margin: 0.5rem 0;
+}
+
+.coll-header-options {
+    display: flex;
+    gap: 1rem;
+}
+.coll-header-options-button {
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    background-color: #1b1d1f00;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.coll-header-options-button:hover {
+    cursor: pointer;
+    background-color: #6f757c28;
+}
+
+.coll-header-options-button.active {
+    background-color: #6F757C;
+}
+
+.coll-products {
+    display: grid;
+    justify-items: center;
+}
+
+.coll-products-coffes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coffee-item {
+    margin: 2%;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+    background-color: #252525;
+    transition: 0.2s;
+}
+
+.coffee-item-side
+{
+    left: 80%;
+}
+
+.bi-star-fill
+{
+    color: rgb(255, 230, 0);
+}
+
+.coffee-details-rating
+{
+   display: flex;
+   gap: 5px;
+}
+
+.coffee-details-rating-total
+{
+    color: grey;
+}
+
+.coffee-details-header
+{
+    margin-top: 5%;
+    display: flex;
+    gap: 2%;
+}
+
+.coffee-details-header-name
+{
+    font-size: large;
+}
+
+.coffee-details-header-price
+{
+    position: relative;
+    left: 40%;
+    background-color:#BEE3CC ;
+    color: black;
+    border-radius: 10%;
+    height: 24px;
+    width: 45px;
+    place-items: center;
+}
+
+.coffee-image
+{
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 2%
+}
+
+.coffee-item:hover
+{
+    background-color:#383838;
+    cursor: pointer;
+}
+
+.coffee-details-no-rating
+{
+    display: flex;
+    color: grey;
+    gap: 5px;
+}
+
+.coffee-item-details
+{
+    display: flex;
+    gap: 20%;
+}
+
+.coffee-item-details-soldOut
+{
+    color: #ED735D;
+    text-decoration: solid;
+}
